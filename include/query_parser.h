@@ -14,5 +14,7 @@ std::string Get_Str_Between(const std::string &s,
         const std::string &stop_delim);
 std::string Get_Query_Term(const std::string &s);
 std::string Get_Query_Attribute(const std::string &s);
+std::string Escape_Special_Chars(const std::string &input);
+std::string Escape_FtQuery(const std::string &input);
 
 #endif /* QUERY_PARSER_H */
